@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Professional Camera",
+            "description": "High quality professional camera for photographers.",
+            "price": 1000,
+            "stock": 10,
+            "image": "/assets/product_img/p_camera.png"
+        },
+        {
+            "id": 2,
+            "name": "SmartBand",
+            "description": "Wearable Smartband that can monitorize your steps, hearth rate and more.",
+            "price": 50,
+            "stock": 15,
+            "image": "/assets/product_img/smartband.png"
+        },
+        {
+            "id": 3,
+            "name": "WiFi Router",
+            "description": "WiFi Router for create wireless networks.",
+            "price": 350,
+            "stock": 4,
+            "image": "/assets/product_img/wifi_router.png"
+        },
+        {
+            "id": 4,
+            "name": "Airpods",
+            "description": "Bluetooth In-Ear Headphones that can be connected to your phone.",
+            "price": 350,
+            "stock": 2,
+            "image": "/assets/product_img/airpods.png"
+        },
+        {
+            "id": 5,
+            "name": "Bluetooth Speaker",
+            "description": "High quality Bluetooth Speaker for play music.",
+            "price": 300,
+            "stock": 7,
+            "image": "/assets/product_img/speakers.png"
+        },
+        {
+            "id": 6,
+            "name": "SmartWatch",
+            "description": "Wearable SmartWatch that can monitorize your steps, hearth rate and more.",
+            "price": 400,
+            "stock": 5,
+            "image": "/assets/product_img/smartwatch.png"
+        },
+        {
+            "id": 7,
+            "name": "Headphone",
+            "description": "On-Ear Headphone that can be connected to your phone.",
+            "price": 350,
+            "stock": 8,
+            "image": "/assets/product_img/headphones.png"
+        },
+        {
+            "id": 8,
+            "name": "Office Lamp",
+            "description": "A Office Lamp that can bring light for differents space.",
+            "price": 225,
+            "stock": 2,
+            "image": "/assets/product_img/o_lamp.png"
+        },
+        {
+            "id": 9,
+            "name": "Smartphone",
+            "description": "Smart Device where you can have apps, make calls, see social media and more.",
+            "price": 700,
+            "stock": 3,
+            "image": "/assets/product_img/smartphone.png"
+        },
+        {
+            "id": 10,
+            "name": "KeyBoard",
+            "description": "High Quality Modern Mechanical Programming Keyboard",
+            "price": 135,
+            "stock": 10,
+            "image": "/assets/product_img/keyboard.png"
+        },
+        {
+            "id": 11,
+            "name": "Laptop",
+            "description": "Portable Computer with high quality and capacity.",
+            "price": 350,
+            "stock": 8,
+            "image": "/assets/product_img/laptop.png"
+        },
+        {
+            "id": 12,
+            "name": "Spinning Top",
+            "description": "Spinning Top Toy",
+            "price": 350,
+            "stock": 11,
+            "image": "/assets/product_img/s_top.png"
+        }
+    ]
+}

@@ -1,8 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background-color: #fcfcfc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,106 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer components {
+  header {
+    @apply w-full h-[15vw] bg-[#FFFFFF] flex justify-around items-center text-sm
+  }
+
+  .logo-container {
+    @apply mx-[-1em]
+  }
+
+  .logo {
+    @apply text-base text-[#5434D1]
+  }
+
+  .productsList-cont {
+    @apply w-full pt-5
+  }
+
+  .productsList-cont h2 {
+    @apply text-center text-xl text-black
+  }
+
+  .productsList {
+    @apply w-full flex flex-row flex-wrap justify-center items-center
+  }
+
+  .card {
+    @apply m-3 text-center bg-[#c9c9c9] rounded-md py-3
+  }
+
+  .card-visual {
+    @apply w-[300px] h-[150px] flex justify-center items-center
+  }
+
+  .card-visual-img {
+    @apply w-[90%] h-auto object-cover object-center scale-[0.40]
+  }
+
+  .banner {
+    @apply w-[100vw] h-[50vh]
+  }
+
+  .banner-container {
+    @apply flex flex-row justify-around items-center bg-[#3454D1] h-full
+  }
+
+  .banner-text {
+    @apply m-2
+  }
+
+  .banner-text h2 {
+    @apply rounded px-2 text-left text-[#FCFCFC] my-1
+  }
+
+  .banner-text h3 {
+    @apply text-lg text-[#FCFCFC] my-2
+  }
+
+  .banner-text span {
+    @apply text-2xl text-[#FCFCFC] font-bold
+  }
+
+  .banner-media {
+    @apply w-1/2 h-1/2
+  }
+
+  .productInfo-cont {
+    @apply w-full flex flex-col items-center
+  }
+
+  .productInfo-text {
+    @apply w-[80%] flex flex-col my-2
+  }
+
+  .productInfo-text h2 {
+    @apply text-xl my-2
+  }
+
+  .productInfo-text p {
+    @apply text-base mb-2
+  }
+
+  .productInfo-text span {
+    @apply text-lg text-red-600
+  }
+
+  .productInfo-visual img{
+    @apply my-1 h-[50vh] scale-75
+  }
+
+  .productInfo-cont button {
+    @apply m-1 p-2 bg-red-600 text-white
+  }
+
+  .cartItem-card {
+    @apply flex flex-col items-center text-center bg-[#c9c9c9] rounded-md my-1
+  }
+
+  .payButton {
+    @apply my-3 bg-[#3454D1] p-3 px-5 rounded-md
+  }
 }
